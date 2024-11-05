@@ -3,7 +3,7 @@ import os
 import re
 
 # 폴더 경로 설정
-folder_path = '/'  # 여기에 실제 폴더 경로를 입력하세요
+folder_path = './'  # 여기에 실제 폴더 경로를 입력하세요
 
 # 파일 이름에서 깨진 문자 제거 (점은 제외)하는 함수
 def clean_filename(filename):

@@ -1,0 +1,10 @@
+/data
+/model
+/aihub
+/.ipynb_checkpoints
+/preprocessed
+/SaveModel
+/experiments
+/.zshrc
+/.idea
+/logs

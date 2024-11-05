@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from app import settings
-from app import router
-from app import setup_logging
-from app import RecommendationService
+from app.core.config import settings
+from app.api.endpoints import router
+from app.core.logging import setup_logging
+from app.services.recommender import RecommendationService
 from datetime import datetime
 
 # 로깅 설정
